@@ -398,7 +398,10 @@ const TextField = React.createClass({
   },
 
   _handleInputChange(e) {
-    this.setState({hasValue: isValid(e.target.value)});
+    const target = e.target;
+    setTimeout(() => {
+      this.setState({ hasValue: isValid(target.value) });
+    }, 0);
     if (this.props.onChange) this.props.onChange(e);
   },
 

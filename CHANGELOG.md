@@ -4,7 +4,7 @@
 ###### _Feb 02, 2016_
 
 ##### General
-- 准备修正与 redux-form 的集成问题
+- 与 redux-form 的集成问题修正完成
 - [CRITICAL] Fixed a regression that completely disabled the auto-prefixer (#3142)
 - [Docs] Contributing guide (#3075)
 - [Docs] Added a `Related Projects` section (#3102)
